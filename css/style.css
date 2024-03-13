@@ -4,18 +4,36 @@
     box-sizing: border-box;
 }
 
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
 .header-page{
+    display: flex;
+    align-items: center;
     background-color: blue;
-    padding: 20px;
+    padding: 50px;
+}
+
+.header-title{
+    color: white;
 }
 
 .main-page{
     background-color: yellowgreen;
     padding: 50px;
+    flex-grow: 1;
+}
+
+.play{
+    margin-left:  auto;
 }
 
 .btn{
     padding: 0px 10px;
+    
 }
 
 .outsider{
@@ -32,6 +50,9 @@
     aspect-ratio: 1 / 1;
     border: 2px solid white;
     padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .bg-dark-green{
