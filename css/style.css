@@ -4,13 +4,14 @@
     box-sizing: border-box;
 }
 
-body{
-    background-color: yellowgreen;
-}
-
 .header-page{
     background-color: blue;
     padding: 20px;
+}
+
+.main-page{
+    background-color: yellowgreen;
+    padding: 50px;
 }
 
 .btn{
@@ -31,4 +32,13 @@ body{
     aspect-ratio: 1 / 1;
     border: 2px solid white;
     padding: 20px;
+}
+
+.bg-dark-green{
+    background-color: rgb(0, 69, 0);
+}
+
+.footer-page{
+    background-color: blue;
+    padding: 50px;
 }
