@@ -10,7 +10,7 @@
 //collegare il bottone per creare la griglia
 const createGrid = document.querySelector('.btn');
 
-const selectElementDOM
+const selectElementDOM = document.querySelector('.select');
 
 //creo l'evento quando clicco il bottone
 createGrid.addEventListener('click', function() {
@@ -18,7 +18,16 @@ createGrid.addEventListener('click', function() {
     const gridElement = document.querySelector('.grid');
     //creare le celle all interno della griglia 
         //do una dimensione alle celle 
-        const dimention = 10;
+        let dimention ;
+        //provo a fare il bonus scegliendo la difficoltà 
+        if(selectElementDOM.value === 'easy'){
+            dimention = 10;
+        }else if(selectElementDOM.value === 'medium'){
+            dimention = 9;
+        } else{
+            dimention = 7;
+        }
+
         //moltiplico le celle per ottenere una griglia 10 x 10
         const squereDimention = dimention * dimention;
 
@@ -54,3 +63,5 @@ createGrid.addEventListener('click', function() {
     }
 
 })
+
+
