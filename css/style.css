@@ -8,6 +8,15 @@ body{
     background-color: yellowgreen;
 }
 
+.header-page{
+    background-color: blue;
+    padding: 20px;
+}
+
+.btn{
+    padding: 0px 10px;
+}
+
 .outsider{
     width: 900px;
     margin: 0 auto;
