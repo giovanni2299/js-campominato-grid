@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: yellowgreen;
+}
+
+.outsider{
+    width: 900px;
+    margin: 0 auto;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(10,1fr);
+}
+
+.cell{
+    aspect-ratio: 1 / 1;
+    border: 2px solid white;
+    padding: 20px;
+}
