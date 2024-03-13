@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+img{
+    max-width: 100%;
+}
+
 body{
     height: 100vh;
     display: flex;
@@ -31,13 +35,17 @@ body{
     margin-left:  auto;
 }
 
-.btn{
-    padding: 0px 10px;
+.btn, .select{
+    padding: 0 10px;
     
 }
 
+.select{
+    margin-left: 5px;
+}
+
 .outsider{
-    width: 900px;
+    width: 800px;
     margin: 0 auto;
 }
 

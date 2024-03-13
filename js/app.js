@@ -10,6 +10,8 @@
 //collegare il bottone per creare la griglia
 const createGrid = document.querySelector('.btn');
 
+const selectElementDOM
+
 //creo l'evento quando clicco il bottone
 createGrid.addEventListener('click', function() {
     //creare la griglia 
