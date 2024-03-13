@@ -51,13 +51,19 @@ body{
 
 .grid{
     display: grid;
-    grid-template-columns: repeat(10,1fr);
 }
 
 
-.grid-easy{
-    display: grid;
+.easy{
     grid-template-columns: repeat(10,1fr);
+}
+
+.medium{
+    grid-template-columns: repeat(9,1fr);
+}
+
+.hard{
+    grid-template-columns: repeat(7,1fr);
 }
 
 .cell{
