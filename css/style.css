@@ -17,16 +17,16 @@ body{
 .header-page{
     display: flex;
     align-items: center;
-    background-color: blue;
+    background-color: white;
     padding: 50px;
 }
 
 .header-title{
-    color: white;
+    color:black;
 }
 
 .main-page{
-    background-color: yellowgreen;
+    background-color: aquamarine;
     padding: 50px;
     flex-grow: 1;
 }
@@ -80,6 +80,6 @@ body{
 }
 
 .footer-page{
-    background-color: blue;
+    background-color: white;
     padding: 50px;
 }

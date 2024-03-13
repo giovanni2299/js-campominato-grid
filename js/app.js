@@ -15,7 +15,7 @@ const selectElementDOM = document.querySelector('.select');
 //creo l'evento quando clicco il bottone
 
 createGrid.addEventListener('click', function() {
-    
+
     //creare la griglia 
 
     const gridElement = document.querySelector('.grid');
@@ -40,6 +40,8 @@ createGrid.addEventListener('click', function() {
 
         //moltiplico le celle per ottenere una griglia 10 x 10
         const squereDimention = dimention * dimention;
+
+        gridElement.innerHTML = ''
 
     //lggo le celle singolarmente per tramite un ciclo for
 
