@@ -28,14 +28,28 @@ createGrid.addEventListener('click', function() {
 
         //provo a fare il bonus scegliendo la difficoltà 
         if(selectElementDOM.value === 'easy'){
+
             dimention = 10;
-            gridElement.classList.add('easy')
+
+            gridElement.classList.add('easy');
+
+            gridElement.classList.remove('medium', 'hard');
+
         }else if(selectElementDOM.value === 'medium'){
+
             dimention = 9;
+
             gridElement.classList.add('medium')
+
+            gridElement.classList.remove('easy', 'hard');
+
         } else{
+
             dimention = 7;
+
             gridElement.classList.add('hard')
+
+            gridElement.classList.remove('medium', 'easy');
         }
 
         //moltiplico le celle per ottenere una griglia 10 x 10
